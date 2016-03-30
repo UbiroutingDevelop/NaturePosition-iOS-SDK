@@ -21,7 +21,7 @@ SDK版本号0.15 (alpha)
 
 示例
 
-```
+```objective-c
 	#import "SHTStoreDatas.h"
 	#import "SHTStore.h"
 	
@@ -84,7 +84,7 @@ SDK版本号0.15 (alpha)
 
 之后，构造locationManager对象，并将该SHTLocationParameters，以及APP Key等信息作为参数传入其中，并设置代理方法，详见如下示例：
 
-```
+```objective-c
 	#import "SHTLocationParameters.h"
 	#import "SHTPosition.h"
 	#import "SHTLocationManager.h"
