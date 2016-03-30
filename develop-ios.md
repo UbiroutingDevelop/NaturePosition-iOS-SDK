@@ -1,7 +1,6 @@
 SDK版本号0.15 (alpha)
 #1 获取SDK
-您可发送邮件至[sdk@ubirouting.com](mailto:sdk@ubirouting.com)获取最新的iOS SDK。详见概述。
-目前SDK正处于测试过程中，若您再使用过程中遇到任何问题，欢迎您反馈至[sdk@ubirouting.com](mailto:sdk@ubirouting.com)。
+[获取SDK](https://github.com/UbiroutingDevelop/NaturePosition-iOS-SDK)
 
 注：因为模拟器不含有传感器，所以请您在调试过程中使用真机进行调试。
 
