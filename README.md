@@ -1,4 +1,4 @@
-识途地磁定位NaturePosition-iOS-SDK 开发文档
+识途地磁/iBeacon 定位SDK 开发文档
 =====
 
 [简介](https://github.com/UbiroutingDevelop/NaturePosition-iOS-SDK/blob/master/brief-ios.markdown)
