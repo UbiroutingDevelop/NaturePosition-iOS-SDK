@@ -1,34 +1,7 @@
-#0 准备工作
-
-在识途云或识途Creator中，完成新增场地的工作；
-
-并按照如下说明，对场地进行现场采集。
-
-[地磁采集和测试](http://open.ubirouting.com/client/detail/8)
-
-[iBeacon采集和测试](http://open.ubirouting.com/client/detail/6)
-
-[WiFi采集和测试](http://open.ubirouting.com/client/detail/7)
-
-此外，需要在[识途开发者平台](http://open.ubirouting.com)创建应用。
-
-具体步骤如下：
-
-+ 登录识途开发者平台，打开右上角-我的应用-新建应用；
-+ 新建一个应用，在名称中输入APP的名称;
-+ signature处填入该项目的*Bundle Identifier*
-+ 应用机型处选择iOS
-+ 点击确定，系统即生成唯一的key。
-
-使用SDK开发，请您参阅下一节内容。
-
-#1 获取SDK
-
 SDK版本号0.15 (alpha)
-
-[获取SDK](https://github.com/UbiroutingDevelop/NaturePosition-iOS-SDK)
-
-[Demo](https://github.com/UbiroutingDevelop/NaturePosition-iOS-Demo)
+#1 获取SDK
+您可发送邮件至[sdk@ubirouting.com](mailto:sdk@ubirouting.com)获取最新的iOS SDK。详见概述。
+目前SDK正处于测试过程中，若您再使用过程中遇到任何问题，欢迎您反馈至[sdk@ubirouting.com](mailto:sdk@ubirouting.com)。
 
 注：因为模拟器不含有传感器，所以请您在调试过程中使用真机进行调试。
 
@@ -48,7 +21,7 @@ SDK版本号0.15 (alpha)
 
 示例
 
-```
+```objective-c
 	#import "SHTStoreDatas.h"
 	#import "SHTStore.h"
 	
@@ -111,7 +84,7 @@ SDK版本号0.15 (alpha)
 
 之后，构造locationManager对象，并将该SHTLocationParameters，以及APP Key等信息作为参数传入其中，并设置代理方法，详见如下示例：
 
-```
+```objective-c
 	#import "SHTLocationParameters.h"
 	#import "SHTPosition.h"
 	#import "SHTLocationManager.h"
@@ -197,4 +170,3 @@ SDK版本号0.15 (alpha)
 	
 	@end
 ```
-
